@@ -1,0 +1,1010 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>慕课网</title>
+	<link rel="stylesheet" type="text/css" href="css/1.css">
+	<link rel="stylesheet" type="text/css" href="css/2.css">
+	<link rel="stylesheet" type="text/css" href="css/3.css">
+	<link rel="stylesheet" type="text/css" href="css/4.css">
+	<script type="text/javascript" src="js/2.js"></script>
+	<script type="text/javascript" src="js/3.js"></script>
+	<script type="text/javascript" src="js/4.js"></script>
+	<script type="text/javascript" src="js/5.js"></script>
+</head>
+<body id="whole">
+	<div id="header">
+		<div class="aa">
+			<div class="logo"><a  href="http://www.imooc.com/"><img src="css/img/a1.gif"></a></div>
+			<ul class="a1">
+				<li><a href="http://www.imooc.com/course/list">课程</a></li>
+				<li><a href="http://www.imooc.com/course/program">职业路径</a></li>
+				<li><a href="http://coding.imooc.com/">实战</a></li>
+				<li><a href="http://www.imooc.com/wenda">猿问</a></li>
+				<li><a href="http://www.imooc.com/article">手记</a></li>
+			</ul>
+			<div class="a2">
+				<p>
+					<a href="javascript:void(0)" onclick="document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">注册
+					</a>
+				</p>
+				<div id="light" class="b2">
+					<div>
+						<span class="b3">注册</span>
+						<a href="javascript:void(0)" onclick="document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'" class="b4"> ×
+    					</a>
+    					<hr class="b5">
+    				</div>
+    				<form id="bb">
+    					<div class="b6">
+    						<label>
+    							<span>Email：</span>
+    							<input type="text" name="name">
+    						</label>   						
+    						<p class="msg2"></p>
+    					</div>
+    					<div class="b7">
+    						<label>
+    							<span>姓名：</span>
+    							<input type="text" name="Email">
+    						</label>
+    						<p class="msg"></p>
+    					</div>
+    					<div class="b8">
+    						<label>
+    							<span>密码：</span>
+    							<input type="password" name="password">
+    						</label>
+    						<p class="msg"></p>
+    					</div>
+    					<div class="b9">
+    						<label>
+    							<span>确认密码：</span>
+    							<input type="password" name="confirm">
+    						</label>
+    						<p class="msg1"></p>
+    					</div>
+    					<div class="b10">
+    						<span>验证码：</span>
+    						<input type="text">
+    					</div>
+    				</form>
+    				<hr class="b12">
+    				<button onclick="document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'" class="b11">关闭</button>
+    				<button onclick="document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'" class="b13">注册</button>
+    				<button onclick="document.getElementById('bb').reset()" class="b14">清空</button>
+				</div>
+				<div id="fade" class="b1"> 
+				</div>
+			</div>
+			<div class="a3">
+				<p>
+					<a href="javascript:void(0)"  onclick="document.getElementById('light2').style.display='block';document.getElementById('fade').style.display='block'">登录
+					</a>
+				</p>
+				<div id="light2" class="b2">
+					<div>
+						<span class="b3">Login</span>
+						<a href="javascript:void(0)" onclick="document.getElementById('light2').style.display='none';document.getElementById('fade').style.display='none'" class="b4"> ×
+						</a>
+						<hr class="b5">
+					</div>
+					<form id="b18"> 
+						<div class="b15">
+							<label>
+								<span>Email:</span>
+								<input type="text" name="Email">
+							</label>
+						</div>
+						<div class="b16">
+							<label>
+								<span>密码：</span>
+								<input type="password" name="password">
+							</label>
+						</div>
+						<div class="b17">
+							<span>验证码：</span>
+							<input type="text" name="text">
+						</div>
+					</form>
+					<hr class="b12">
+					<button onclick="document.getElementById('light2').style.display='none';document.getElementById('fade').style.display='none'" class="b11">关闭</button>
+    				<button onclick="document.getElementById('light2').style.display='none';document.getElementById('fade').style.display='none'" class="b13">登录</button>
+    				<button onclick="document.getElementById('b18').reset()" class="b14">清空</button>
+				</div>
+				<div id="fade" class="b1"> 
+				</div>
+			</div>
+			<div class="a4" onmouseover="xialaliebiao1()" onmouseout="xialaliebiao2()" >
+				<a href="http://order.imooc.com/pay/cart"><img src="css/img/a2.png" class="a5"><span class="a6">购物车</span></a>		
+			</div>
+			<div class="a7"><input type="text" class="a8"><button class="a9">
+			<a href="http://www.imooc.com/"><img src="css/img/a3.png" class="a10"></a></button></div>
+		</div>
+		<div class="c1"><img src="css/img/a4.jpg" class="c2"></div>
+		<div id="a11">
+			<div class="c10">
+				<div class="c12">
+					<span>我的购物车</span>
+					<span class="c11">已加入0门课</span>
+				</div>
+				<div class="c13">
+					<img src="css/img/a17.png" class="c14">
+					<div>购物车里空空如也</div>
+				</div>
+				<div class="c15">
+					<div class="c16">快去这里选你中意的课程</div>
+					<div>实战课程</div>
+					<div>职业路径</div>
+				</div>
+				<div class="c17">
+					<span class="c18">我的订单中心</span>
+					<button class="c19"><span class="c20">去购物车</span></button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="shang1">
+		<div id="container">
+			<div class="c3">
+				<a href="http://www.imooc.com/course/list?c=fe">
+					<div class="c5">
+						<span class="c6" onmouseover="xialaliebiao3()" onmouseout="xialaliebiao4()">前端开发</span>
+						<span class="c8">></span>
+					</div>
+				</a>
+				<a href="http://www.imooc.com/course/list?c=be">
+					<div class="c5">
+						<span class="c6" onmouseover="xialaliebiao5()" onmouseout="xialaliebiao6()">后端开发</span>
+						<span class="c8">></span>
+					</div>
+				</a>
+				<a href="http://www.imooc.com/course/list?c=mobile">
+					<div class="c5">
+						<span class="c6" onmouseover="xialaliebiao7()" onmouseout="xialaliebiao8()">移动开发</span>
+						<span class="c8">></span>
+					</div>
+				</a>
+				<a href="http://www.imooc.com/course/list?c=data">
+					<div class="c5">
+						<span class="c6" onmouseover="xialaliebiao9()" onmouseout="xialaliebiao10()">数据库 </span>
+						<span class="c8">></span>
+					</div>
+				</a>
+				<a href="http://www.imooc.com/course/list?c=cb">
+					<div class="c5"> 
+						<span class="c6" onmouseover="xialaliebiao11()" onmouseout="xialaliebiao12()">云计算&大数据</span>
+						<span class="c8">></span>
+					</div>
+				</a>
+				<a href="http://www.imooc.com/course/list?c=op">
+					<div class="c5">
+						<span class="c6" onmouseover="xialaliebiao13()" onmouseout="xialaliebiao14()">运维&测试</span>
+						<span class="c8">></span>
+					</div>
+				</a>
+				<a href="http://www.imooc.com/course/list?c=photo">
+					<div class="c9">
+						<span class="c6" onmouseover="xialaliebiao15()" onmouseout="xialaliebiao16()">UI设计</span>
+						<span class="c8">></span>
+					</div>
+				</a>
+			</div>
+			<div id="d6" style="background-image: url(css/img/a10.png);">
+				<div class="d7">分类目录</div>
+				<div>
+					<span>基础：</span>
+					<span>HTML/CSS</span>
+					<span>/</span>
+					<span>JavaScript</span>
+					<span>/</span>
+					<span>JQuery</span>
+				</div>
+				<div>
+					<span>进阶：</span>
+					<span>Html5</span>
+					<span>/</span>
+					<span>CSS3</span>
+					<span>/</span>
+					<span>Node.js</span>
+					<span>/</span>
+					<span>AngularJS</span>
+					<span>/</span>
+					<span>Bootstarap</span>
+					<span>/</span>
+					<span>React</span>
+					<span>/</span>
+					<span>Sass/Less</span>
+					<span>/</span>
+				</div>
+				<div class="d8">
+					<span>Vue.js</span>
+					<span>/</span>
+					<span>WebApp</span>
+				</div>
+				<div>
+					<span>其他：</span>
+					<span>前端工具</span>
+				</div>
+				<div class="d9">课程推荐</div>
+				<div class="d13">
+					<span class="d10">职业路径</span>
+					<span class="d15">HTML5与CSS实现动态网页</span>
+				</div>
+				<div>
+					<span class="d11">实战</span>
+					<span>React.js入门与实战</span>
+					<span>开发适配PC端及移动端新闻头条平台</span>
+				</div>
+				<div>
+					<span class="d11">实战</span>
+					<span>AngularJS仿拉勾网WebApp</span>
+					<span>开发移动端单页应用</span>
+				</div>
+				<div>
+					<span class="d11">课程</span>
+					<span>JS插件开发之LightBox图片画廊（下）</span>
+				</div>
+				<div>
+					<span class="d11">课程</span>
+					<span>CSS实现漂亮ToolTips效果</span>
+				</div>
+			</div>
+			<div id="d12" style="background-image: url(css/img/a11.png);">
+				<div class="d7">分类目录</div>
+				<div>
+					<span>PHP</span>
+					<span>/</span>
+					<span>Java</span>
+					<span>/</span>
+					<span>Python</span>
+					<span>/</span>
+					<span>C</span>
+					<span>/</span>
+					<span>C++</span>
+					<span>/</span>
+					<span>Go</span>
+					<span>/</span>
+					<span>C#</span>
+					<span>/</span>
+					<span>Ruby</span>
+					<span>/</span>
+				</div>
+				<div class="d9">课程推荐</div>
+				<div class="d13"> 
+					<span class="d11">实战</span>
+					<span>强力django+杀手级xadmin</span>
+					<span>打造上线标准的在线教育平台</span>
+				</div>
+				<div>
+					<span class="d11">实战</span>
+					<span>Android自动化测试实战</span>
+					<span>工具</span>
+					<span>框架</span>
+					<span>脚本</span>
+				</div>
+				<div>
+					<span class="d11">课程</span>
+					<span>深入浅出Java多线程</span>
+				</div>
+				<div>
+					<span class="d11">课程</span>
+					<span>模式的秘密---代理模式</span>
+				</div>
+				<div>
+					<span class="d11">课程</span>
+					<span>Python错误和异常</span>
+				</div>
+			</div>
+			<div id="d14" style="background-image: url(css/img/a12.png);">
+				<div class="d7">分类目录</div>
+				<div>
+					<span>Android</span>
+					<span>/</span>
+					<span>iOS</span>
+					<span>/</span>
+					<span>Unity 3D</span>
+					<span>/</span>
+					<span>Cocos2d-x</span>
+					<span>/</span>
+				</div>
+				<div class="d9">课程推荐</div>
+				<div class="d13">
+					<span class="d10">职业路径</span>
+					<span class="d15">零基础入门Android App</span>
+				</div>
+				<div>
+					<span class="d10">职业路径</span>
+					<span class="d15">iOS基础语法与常用控件</span>
+				</div>
+				<div>
+					<span class="d11">实战</span>
+					<span>巧用第三方快速开发Android App</span>
+					<span>热门SDK及框架</span>
+				</div>
+				<div>
+					<span class="d11">实战</span>
+					<span>Android自动化测试实战</span>
+					<span>工具</span>
+					<span>框架</span>
+					<span>脚本</span>
+				</div>
+				<div>
+				 	<span class="d11">课程</span>
+				 	<span>Android-节日短信送祝福（功能篇）</span>
+				</div>
+				<div>
+					<span class="d11">课程</span>
+					<span>360加速球核心效果实现</span>
+				</div>
+			</div>
+			<div id="d16" style="background-image: url(css/img/a13.png);">
+				<div class="d7">分类目录</div>
+				<div>
+					<span>MySQL</span>
+					<span>/</span>
+					<span>MongoDB</span>
+					<span>/</span>
+					<span>Oracle</span>
+					<span>/</span>
+					<span>SQL Server</span>
+					<span>/</span>
+				</div>
+				<div class="d9">课程推荐</div>
+				<div class="d13">
+				 	<span class="d11">实战</span>
+				 	<span>高性能可扩展MySQL数据库设计及架构优化</span>
+				 	<span>电商项目</span>
+				</div>
+				<div>
+					<span class="d11">课程</span>
+					<span>Yii2.0打造完整电商平台</span>
+				</div>
+				<div>
+					<span class="d11">课程</span>
+					<span>MySQL开发技巧（二）</span>
+				</div>
+				<div>
+					<span class="d11">课程</span>
+					<span>SQL Server基础--T-SQL语句</span>
+				</div>
+				<div>
+					<span class="d11">课程</span>
+					<span>Oracle数据库开发利器之函数</span>
+				</div>
+			</div>
+			<div id="d17" style="background-image: url(css/img/a14.png);">
+				<div class="d7">分类目录</div>
+				<div>
+					<span>大数据</span>
+					<span>/</span>
+					<span>云计算</span>
+					<span>/</span>
+				</div>
+				<div class="d9">课程推荐</div>
+				<div class="d13">
+					<span class="d11">实战</span>
+					<span>扛得住的MySQL数据库架构</span>
+				</div>
+				<div>
+					<span class="d11">课程</span>
+					<span>OpenStack基础</span>
+				</div>
+				<div>
+					<span class="d11">课程</span>
+					<span>阿里云助力弹性伸缩服务</span>
+				</div>
+				<div>
+					<span class="d11">课程</span>
+					<span>云安全的架构设计与实践之旅</span>
+				</div>
+			</div>
+			<div id="d18" style="background-image: url(css/img/a16.png);">
+				<div class="d7">分类目录</div>
+				<div>
+					<span>测试</span>
+					<span>/</span>
+					<span>Linux</span>
+					<span>/</span>
+				</div>
+				<div class="d9">课程推荐</div>
+				<div class="d13">
+					<span class="d11">实战</span>
+					<span>Android自动化测试实战</span>
+					<span>工具</span>
+					<span>框架</span>
+					<span>脚本</span>
+				</div>
+				<div>
+					<span class="d11">实战</span>
+					<span>Android专项测试-Python篇</span>
+					<span>10年测试经验讲师</span>
+				</div>
+				<div>
+					<span class="d11">课程</span>
+					<span>Linux权限管理之特殊权限</span>
+				</div>
+				<div>
+					<span class="d11">课程</span>
+					<span>自动化测试之selenium工具使用</span>
+				</div>
+				<div>
+					<span class="d11">课程</span>
+					<span>软件测试基础-概念篇</span>
+				</div>
+			</div>
+			<div id="d19" style="background-image: url(css/img/a15.png);">
+				<div class="d7">分类目录</div>
+				<div>
+					<span>动画动效</span>
+					<span>/</span>
+					<span>APPUI设计</span>
+					<span>/</span>
+					<span>设计工具</span>
+					<span>/</span>
+					<span>设计基础</span>
+					<span>/</span>
+				</div>
+				<div class="d9">课程推荐</div>
+				<div class="d13">
+					<span class="d11">课程</span>
+					<span>Pscc全面技能培训</span>
+				</div>
+				<div>
+					<span class="d11">课程</span>
+					<span>“Doge”变化术</span>
+				</div>
+				<div>
+					<span class="d11">课程</span>
+					<span>Web UI设计理论入门</span>
+				</div>
+			</div>
+			<div id="list" style="left:-1200px;">
+				<img src="css/img/a9.jpg" alt="1">
+				<img src="css/img/a5.jpg" alt="1"> 
+				<img src="css/img/a6.jpg" alt="2">
+				<img src="css/img/a7.jpg" alt="3">
+				<img src="css/img/a8.jpg" alt="4">
+				<img src="css/img/a9.jpg" alt="5">
+				<img src="css/img/a5.jpg" alt="5">
+			</div>
+			<div id="buttons">
+        		<span index="1" class="on"></span>
+        		<span index="2"></span>
+        		<span index="3"></span>
+        		<span index="4"></span>
+        		<span index="5"></span>
+   			</div>
+    		<a href="javascript:;" id="prev" class="arrow"><</a>
+    		<a href="javascript:;" id="next" class="arrow">></a>   		
+		</div>
+		<div class="d1">
+			<div class="d2">
+				<a href="#">
+					<img src="css/img/a18.png" class="d3">
+				</a>
+				<a href="#" >
+					<img src="css/img/a19.png" class="d4">
+				</a>
+				<a href="#" >
+					<img src="css/img/a20.png" class="d5">
+				</a>
+				<a href="#">
+					<img src="css/img/a21.png" class="d5"> 
+				</a>
+			</div>
+		</div>
+	</div>
+	<div class="zhong1">
+		<div class="e1">
+			<div class="e12">
+				<span class="e2">实战推荐</span>
+				<span class="e6">更多></span>
+			</div>
+			<div class="e13">
+				<div class="e3" >
+					<div class="e4" style="background-image: url(css/img/b1.jpg);">
+						<span class="e10">Java</span>
+						<span class="e10">Android</span>
+					</div>
+					<div class="e5">
+						<div>
+							<span>Android网络层架构设计实站</span>
+							<span>基于okhttp3</span>
+						</div>
+						<div class="e11">
+							设计实现完全解耦合、灵活扩展的网络框架,打造属于自己的框架
+						</div>
+					</div>
+				</div>
+				<div class="e14">
+				 	<div class="e4" style="background-image: url(css/img/b2.jpg);">
+				 	</div>
+				 	<div class="e5">
+						<div>
+							<span>Laravel和 AngularJS开发全栈知乎</span>
+						</div>
+						<div class="e11">
+							前端AngularJS,后端Laravel技术,全栈开发一个您自己的“知乎”
+						</div>
+					</div>
+				</div>
+				<div class="e14">
+				 	<div class="e4" style="background-image: url(css/img/b3.jpg);">
+				 		<span class="e10">HTML/CSS</span>
+				 		<span class="e10">JavaScript</span>
+				 	</div>
+				 	<div class="e5">
+						<div>
+							<span>微信小程序入门与实战</span>
+							<span>常用组件 API 开发技巧</span>
+							<span>项目实战</span>
+						</div>
+						<div class="e11">
+							开发一个集新闻阅读与电影影讯为一体的小程序,学会小程序开发
+						</div>
+					</div>
+				</div>
+				<div class="e14">
+				 	<div class="e4" style="background-image: url(css/img/b4.jpg);">
+				 		<span class="e10">Java</span>
+				 		<span class="e10">Android</span>
+				 		<span class="e10">测试</span>
+				 	</div>
+				 	<div class="e5">
+						<div>
+							<span>Android自动化测试实战</span>
+							<span>工具</span>
+							<span>框架</span>
+							<span>脚本</span>
+						</div>
+						<div class="e11">
+							找Android自动化测试工作必学的主流工具、框架和自动化脚本
+						</div>
+					</div>
+				</div>
+				<div class="e14">
+				 	<div class="e4" style="background-image: url(css/img/b5.jpg);">
+				 		<span class="e10">MySQL</span>
+				 		<span class="e10">大数据</span>
+				 	</div>
+				 	<div class="e5">
+						<div>
+							<span>扛得住的MySQL数据库架构</span>
+						</div>
+						<div class="e11">
+							面面俱到讲解影响MySQL性能的各个因素,将MySQL架构了然于胸。
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="e15">
+				<span class="e2">免费好课</span>
+				<span class="e6">更多></span>
+			</div>
+			<div class="e16">
+				<div class="e3" >
+					<div class="e4" style="background-image: url(css/img/b6.jpg);">
+						<span class="e10">HTML/CSS</span>
+					</div>
+					<div class="e5">
+						<div>
+							<span>手把手教你实现电商网站开发</span>
+						</div>
+						<div class="e11">
+							了解和掌握电商网站制作的流程
+						</div>
+					</div>
+				</div>
+				<div class="e14" >
+					<div class="e4" style="background-image: url(css/img/b7.jpg);">
+						<span class="e10">HTML/CSS</span>
+						<span class="e10">JavaScript</span>
+					</div>
+					<div class="e5">
+						<div>
+							<span>手风琴效果</span>
+						</div>
+						<div class="e11">
+							教你轻松制作手风琴效果!
+						</div>
+					</div>
+				</div>
+				<div class="e14" >
+					<div class="e4" style="background-image: url(css/img/b8.jpg);">
+						<span class="e10">jQuery</span>
+					</div>
+					<div class="e5">
+						<div>
+							<span>jQuery插件——Validation Plugin</span>
+						</div>
+						<div class="e11">
+							validation让客户端表单验证变容易
+						</div>
+					</div>
+				</div>
+				<div class="e14" >
+					<div class="e4" style="background-image: url(css/img/b9.jpg);">
+						<span class="e10">JavaScript</span>
+					</div>
+					<div class="e5">
+						<div>
+							<span>前端实时可视化开发工具体验</span>
+						</div>
+						<div class="e11">
+							前端工具极大提高前端开发效率。
+						</div>
+					</div>
+				</div>
+				<div class="e14" >
+					<div class="e4" style="background-image: url(css/img/b10.jpg);">
+						<span class="e10">JavaScript</span>
+					</div>
+					<div class="e5">
+						<div>
+							<span>信息列表制作</span>
+						</div>
+						<div class="e11">
+							带您玩转信息列表制作
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="e17">
+				<div class="e18">前端开发工程师</div>
+				<div class="e19">
+					<div class="e20" style="background-image: url(css/img/b11.jpg);">
+						<div class="f1">
+							<div class="f2">职业路径</div>
+							<div class="f3">Web前端攻城狮培养计划</div>
+							<div class="f4">HTML5与CSS3实现动态网页</div>
+						</div>
+					</div>
+					<div class="f5">
+						<img src="css/img/b12.jpg" class="f6">
+						<img src="css/img/b13.jpg" class="f7">
+					</div>
+					<div class="f6">
+						<div class="e3" >
+							<div class="e4" style="background-image: url(css/img/b14.jpg);">
+								<span class="e10">jQuery</span>
+							</div>						
+							<div class="e5">
+								<div>
+									<span>jQuery基础 (一)—样式篇</span>
+								</div>
+								<div class="e11">
+									jQuery初入开启样式修炼,体验万能的jQuery样式集搭建网站布局
+								</div>
+							</div>
+						</div>
+						<div class="e14" >
+							<div class="e4" style="background-image: url(css/img/b15.jpg);">
+								<span class="e10">JavaScript</span>
+								<span class="e10">CSS3</span>
+							</div>						
+							<div class="e5">
+								<div>
+									<span>JS+CSS3实现“粽情端午”</span>
+								</div>
+								<div class="e11">
+									用JS和CSS3技术实现3D效果粽子特效动画,掌握动画制作过程
+								</div>
+							</div>
+						</div>
+						<div class="e14" >
+							<div class="e4" style="background-image: url(css/img/b16.jpg);">
+								<span class="e10">JavaScript</span>
+							</div>						
+							<div class="e5">
+								<div>
+									<span>倒计时效果</span>
+								</div>
+								<div class="e11">
+									电商网站限时抢购倒计时效果计算思路和方法,前端开发必备技术
+								</div>
+							</div>
+						</div>
+						<div class="e14" >
+							<div class="e4" style="background-image: url(css/img/b17.jpg);">
+								<span class="e10">JavaScript</span>
+							</div>						
+							<div class="e5">
+								<div>
+									<span>JS实现人机大战之五子棋(UI篇)</span>
+								</div>
+								<div class="e11">
+									利用js及canvas绘图知识,实现程序界面编写和交互逻辑处理
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="f8">
+				<div class="e18">PHP开发工程师</div>
+				<div>
+					<div class="f6"><img src="css/img/b18.jpg"></div>
+					<div class="e14" >
+						<div class="e4" style="background-image: url(css/img/b19.jpg);">
+							<span class="e10">PHP</span>
+						</div>						
+						<div class="e5">
+							<div>
+								<span>轻松学会Laravel-高级篇</span>
+							</div>
+							<div class="e11">
+								Laravel框架高级教程,介绍Laravel提供的工具和功能,快来体验。
+							</div>
+						</div>
+					</div>
+					<div class="e14" >
+						<div class="e4" style="background-image: url(css/img/b20.jpg);">
+							<span class="e10">PHP</span>
+						</div>						
+						<div class="e5">
+							<div>
+								<span>轻松学会Laravel-高级篇</span>
+							</div>
+							<div class="e11">
+								Laravel框架高级教程,介绍Laravel提供的工具和功能,快来体验。
+							</div>
+						</div>
+					</div>
+					<div class="e14" >
+						<div class="e4" style="background-image: url(css/img/b21.jpg);">
+							<span class="e10">PHP</span>
+						</div>						
+						<div class="e5">
+							<div>
+								<span>与《Yii框架》不得不说的故事—工具篇</span>
+							</div>
+							<div class="e11">
+								本教程主要学习Composer、Debug和GII等工具,提高开发效率
+							</div>
+						</div>
+					</div>
+					<div class="e14" >
+						<div class="e4" style="background-image: url(css/img/b20.jpg);">
+							<span class="e10">PHP</span>
+						</div>						
+						<div class="e5">
+							<div>
+								<span>RBAC打造通用web管理权限</span>
+							</div>
+							<div class="e11">
+								RBAC为商业系统安全防范手段,结合理论和实战介绍RBAC
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="e17">
+				<div class="e18">
+					Android开发工程师
+				</div>
+				<div class="e19">
+					<div class="e20" style="background-image: url(css/img/b22.jpg);">
+						<div class="f1">
+							<div class="f9">职业路径</div>
+							<div class="f10">Android攻城狮培养计划</div>
+							<div class="f4">Android网络与数据存储</div> 
+						</div>
+					</div>
+					<div class="f5">
+						<img src="css/img/b23.jpg" class="f6">
+						<img src="css/img/b24.jpg" class="f7">
+					</div>
+					<div class="f6">
+						<div class="e3" >
+							<div class="e4" style="background-image: url(css/img/b25.jpg);">
+								<span class="e10">Android</span>
+							</div>						
+							<div class="e5">
+								<div>
+									<span>Android-五子连珠</span>
+								</div>
+								<div class="e11">
+									Android游戏开发-五子连珠,本教程通过UI与逻辑实现双人对战
+								</div>
+							</div>
+						</div>
+						<div class="e14" >
+							<div class="e4" style="background-image: url(css/img/b26.jpg);">
+								<span class="e10">Android</span>
+							</div>						
+							<div class="e5">
+								<div>
+									<span>即时通讯项目里面的语音处理-基础实现篇</span>
+								</div>
+								<div class="e11">
+									安卓声音录制与播放功能,实现类似微信的语音消息发送与播放
+								</div>
+							</div>							
+						</div>
+						<div class="e14" >
+							<div class="e4" style="background-image: url(css/img/b27.jpg);">
+								<span class="e10">Android</span>
+							</div>						
+							<div class="e5">
+								<div>
+									<span>Android的各种Drawable讲解</span>
+								</div>
+								<div class="e11">
+									了解Android各种Drawable用法,解决开发遇到图形的各种问题
+								</div>
+							</div>							
+						</div>
+						<div class="e14" >
+							<div class="e4" style="background-image: url(css/img/b17.jpg);">
+								<span class="e10">Android</span>
+							</div>						
+							<div class="e5">
+								<div>
+									<span>懒人必备之Android效率开发框架</span>
+								</div>
+								<div class="e11">
+									本教程带你学一个快捷方便的Android开发框架,敏捷开发必备
+								</div>
+							</div>							
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="f8">
+				<div class="e18">IOS开发工程师</div>
+				<div>
+					<div class="f11">
+						<div style="background-image: url(css/img/b28.jpg);" class="f1">
+							<div class="f9">职业路径</div>
+							<div class="f10">iOS攻城狮培养计划</div>
+							<div class="f4">iOS基础语法与常用控件</div>
+						</div>
+					</div>
+					<div class="e14" >
+						<div class="e4" style="background-image: url(css/img/b29.jpg);">
+							<span class="e10">iOS</span>
+						</div>						
+						<div class="e5">
+							<div>
+								<span>iOS-弹幕实现</span>
+							</div>
+							<div class="e11">
+								随心所欲控制弹幕滑动的速度,弹幕的追加,设置弹幕的样式
+							</div>
+						</div>
+					</div>
+					<div class="e14" >
+						<div class="e4" style="background-image: url(css/img/b30.jpg);">
+							<span class="e10">iOS</span>
+						</div>						
+						<div class="e5">
+							<div>
+								<span>iOS-动画进阶</span>
+							</div>
+							<div class="e11">
+								本教程将带你学习iOS开发常用特效处理,更加高级的动画效果实现
+							</div>
+						</div>
+					</div>
+					<div class="e14" >
+						<div class="e4" style="background-image: url(css/img/b31.jpg);">
+							<span class="e10">iOS</span>
+						</div>						
+						<div class="e5">
+							<div>
+								<span>图形手势识别</span>
+							</div>
+							<div class="e11">
+								图形手势识别的实现算法,包括量角器算法、相似度原理及应用方法
+							</div>
+						</div>
+					</div>
+					<div class="e14" >
+						<div class="e4" style="background-image: url(css/img/b32.jpg);">
+							<span class="e10">iOS</span>
+						</div>						
+						<div class="e5">
+							<div>
+								<span>iOS9新特性之画中画Multitasking</span>
+							</div>
+							<div class="e11">
+								针对IOS9新特性演示画中画,Slide Over以及Slide View如何使用
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="g1">
+				<div class="g2">
+					<div class="g3">热门笔记</div>
+					<div>
+						<div style="background-image: url(css/img/c1.jpg);" class="g4">
+							<span class="g5">拿好这段代码，愿你求职路上不再迷茫</span>
+						</div>
+					</div>
+					<div class="g6">
+						<ul>
+							<li>程序员,你真的会写简历吗?</li>
+							<li>jQuery学习笔记系列(一)</li>
+							<li>使用Node.js实现一个简单的ZooKeeper客户端</li>
+							<li>Linux环境下的MySQL安装</li>
+							<li>Crashlytics-崩溃（crash）统计工具使用教程</li>
+							<li>【算法杂谈 2】情人节，用C++画一个心：</li>
+						</ul>
+					</div>
+				</div>
+				<div class="g7">
+					<div class="g3">热门笔记</div>
+					<div>
+						<div style="background-image: url(css/img/c1.jpg);" class="g4">
+							<span class="g5">程序员说的最多的一句话是什么？</span>
+						</div>
+					</div>
+					<div class="g6">
+						<ul>
+							<li>void 和return</li>
+							<li>请问大家最初学编程的梦想是什么？</li>
+							<li>有才华有颜值,涨工资还靠跳槽，靠谱吗？</li>
+							<li>刚开始 学这个 Html和CSS用什么软件编写呢</li>
+							<li>现在目前有酒店有用指纹开锁房门的吗</li>
+							<li>学习编程的路很漫长，我很热爱</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="g13">
+				<div class="e18">慕课精英名师推荐</div>
+				<div class="g8">
+					<img src="css/img/c2.jpg" class="g9">
+					<div class="g10">七月在夏天</div>
+					<div class="g11">作为微信小程序第一波开发者,他受邀编写小程序开发书籍，不久就会出版</div>
+				</div>
+				<div class="g12">
+					<img src="css/img/c3.jpg" class="g9">
+					<div class="g10">singwa</div>
+					<div class="g11">拥有丰富的大数据、高并发处理、大型网站架构经验。曾在新浪视频负责PHP开发</div>
+				</div>
+				<div class="g12">
+					<img src="css/img/c4.jpg" class="g9">
+					<div class="g10">Scott</div>
+					<div class="g11">是国内最早接触 Node.js 的工程师,也是最早用Node.js做开发工程师之一</div>
+				</div>
+				<div class="g12">
+					<img src="css/img/c6.jpg" class="g9">
+					<div class="g10">远人</div>
+					<div class="g11">国内最早一批HTML5实践者,先后就职于腾讯、人人网、小米、美团。</div>
+				</div>
+				<div class="g12">
+					<img src="css/img/c5.jpg" class="g9">
+					<div class="g10">Jason李捷</div>
+					<div class="g11">85后,6年项目开发经验,作为一名程序员的“老师”，他拥有深厚的教学功底。</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="foot">
+		<div class="g14">
+			<div class="g15">
+				<ul class="g16">
+					<li>企业合作</li>
+					<li>人才招聘</li>
+					<li>联系我们</li>
+					<li>讲师招募</li>
+					<li>常见问题</li>
+					<li>意见反馈</li>
+					<li>慕课大学</li>
+					<li>友情链接</li>
+				</ul>
+			</div>
+			<div class="g17">
+				<p>©&nbsp;2017&nbsp;imooc.com&nbsp;&nbsp;京ICP备 13046642号-2</p>
+			</div>
+		</div>
+	</div>
+	<div class="g18">
+		<img src="css/img/d1.png">
+		<button class="g19"><a href="#"><img src="css/img/d2.png"></a></button>
+	</div>
+</body>
+</html>
